@@ -1,5 +1,5 @@
 module ActiveAdmin
-  module ActiveRecordHumanizedEnum
+  module HumanizedEnum
     module ViewHelpers
       module DisplayHelper
         def format_attribute(resource, attr)

@@ -1,5 +1,5 @@
 module ActiveAdmin
-  module ActiveRecordHumanizedEnum
+  module HumanizedEnum
     module Version
       MAJOR = 0
       MINOR = 1
