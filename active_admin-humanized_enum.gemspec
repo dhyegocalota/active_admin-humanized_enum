@@ -1,3 +1,5 @@
+$:.push File.expand_path('../lib', __FILE__)
+
 require './lib/active_admin/humanized_enum/version'
 
 Gem::Specification.new do |spec|
@@ -14,6 +16,7 @@ Gem::Specification.new do |spec|
   spec.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
 
   spec.add_dependency 'activeadmin', '>= 1.0.0.pre1'
+  spec.add_dependency 'active_record-humanized_enum'
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
